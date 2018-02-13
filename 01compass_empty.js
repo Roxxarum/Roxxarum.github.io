@@ -71,6 +71,7 @@ oriented = function(e) {
     if(compassHeading < 340)
         {text_area.textContent = "WEST";}
     if(compassHeading < 350)
+        {text_area.textContent = "west";}
  
 
         
