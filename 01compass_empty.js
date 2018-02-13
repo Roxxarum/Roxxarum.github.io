@@ -46,11 +46,11 @@ var text_area = document.getElementById("compass_content");
         
 	}
 
-var text_area = document.getElementById("direction");
+var text_area2 = document.getElementById("direction");
 
     function myOrientation(){
 
-            text_area.textContent = heading;
+            text_area2.textContent = heading;
         
     }
 
