@@ -11,7 +11,7 @@ oriented = function(e) {
     if(compassHeading > 315 || compassHeading < 45){
         text_area.textContent = "North";
     }
-    
+
     if(compassHeading >= 45 && compassHeading < 135){
         text_area.textContent = "East";
     }
@@ -23,6 +23,7 @@ oriented = function(e) {
     if(compassHeading >= 225 && compassHeading < 315){
         text_area.textContent = "West";
     }
+
 
         
          
@@ -45,4 +46,11 @@ var text_area = document.getElementById("compass_content");
         
 	}
 
+var text_area = document.getElementById("direction");
+
+    function myOrientation(){
+
+            text_area.textContent = compassHeading;
+        
+    }
 
