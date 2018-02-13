@@ -50,7 +50,7 @@ var text_area = document.getElementById("direction");
 
     function myOrientation(){
 
-            text_area.textContent = compassHeading;
+            text_area.textContent = heading;
         
     }
 
