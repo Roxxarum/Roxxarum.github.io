@@ -15,7 +15,7 @@ oriented = function(e) {
     if(compassHeading > 135 && compassHeading < 225)
         {text_area.textContent = "drawn into the";}
     if(compassHeading > 225 && compassHeading < 315)
-        {text_area.textContent = "illusion of the image";}
+        {text_area.textContent = "illusion of the image.";}
    
         
          
